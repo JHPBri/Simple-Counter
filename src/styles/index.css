@@ -10,3 +10,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.Countbar {
+    display:flex;
+    line-height: 60px;
+    height: 60px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: black;
+}
