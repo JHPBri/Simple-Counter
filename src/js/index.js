@@ -9,10 +9,10 @@ import "../styles/index.css";
 function SimpleCounter(props) {
 	return (
 		<div className="Countbar">
-			<h1 className="four">{props.digitfour}</h1>
-			<h1 className="three">{props.digitthree}</h1>
-			<h1 className="two">{props.digittwo}</h1>
-			<h1 className="one">{props.digitone}</h1>
+			<h1 className="four">{props.digitfour % 10}</h1>
+			<h1 className="three">{props.digitthree % 10}</h1>
+			<h1 className="two">{props.digittwo % 10}</h1>
+			<h1 className="one">{props.digitone % 10}</h1>
 		</div>
 	);
 }
